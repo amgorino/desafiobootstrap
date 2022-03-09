@@ -3,6 +3,29 @@
     padding: 0;
 }
 
+.carousel-item {
+
+    height: 32rem;
+    width: 1500px;
+    background-color: gray;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+
+}
+.carousel-inner {
+    width: 100%;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 50px;
+}
+
 body {
     position: relative;
     background-color: black;
@@ -110,6 +133,7 @@ ul li a:hover {
     padding: 15px;
     margin: 2%;
     position: sticky;
+    color: white;
     
 
 }
@@ -198,6 +222,7 @@ footer {
         align-items: center;
         background-color: black;
         height: 500px;
+        width: 100%;
         padding: 1%;
       }
 }
@@ -209,4 +234,18 @@ footer {
     position: sticky;
     }
 }
+
+
+
+/***MEDIA QUERIES
+
+@media (max-width:800px) {
+
+	h6 {
+		display: none;
+	}
+
+}
+
+***/
 
